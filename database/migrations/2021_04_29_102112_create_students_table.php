@@ -21,8 +21,8 @@ class CreateStudentsTable extends Migration
             $table->integer('grade_2')->nullable();
             $table->integer('grade_3')->nullable();
             $table->integer('grade_4')->nullable();
-            $table->float('average');
-            $table->string('final');
+            $table->float('average')->nullable();
+            $table->string('final')->nullable();
             $table->timestamps();
         });
     }
