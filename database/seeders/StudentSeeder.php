@@ -19,8 +19,8 @@ class StudentSeeder extends Seeder
             'grade_4'    => '10',
             'average'    => null,
             'final'      => null,
-            'created_at' => '2021-04-29 21:12:01',
-            'updated_at' => '2021-04-29 21:12:01'
+            'created_at' => '2021-04-29 12:12:01',
+            'updated_at' => '2021-04-29 12:12:01'
         ], 
         [
             'id'         => '2',
@@ -32,8 +32,21 @@ class StudentSeeder extends Seeder
             'grade_4'    => '10',
             'average'    => null,
             'final'      => null,
-            'created_at' => '2021-04-29 21:12:01',
-            'updated_at' => '2021-04-29 21:12:01'
+            'created_at' => '2021-04-29 12:12:02',
+            'updated_at' => '2021-04-29 12:12:02'
+        ],
+        [
+            'id'         => '3',
+            'board'      => 'csmb',
+            'name'       => 'Student3',
+            'grade_1'    => '9',
+            'grade_2'    => null,
+            'grade_3'    => null,
+            'grade_4'    => null,
+            'average'    => null,
+            'final'      => null,
+            'created_at' => '2021-04-29 12:12:02',
+            'updated_at' => '2021-04-29 12:12:02'
         ]
     ];
     
