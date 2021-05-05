@@ -19,7 +19,7 @@ to build the Docker containers and services.
 
 Then run the migrations to set up the database
 ```
-$ vendor/bin/sail artisan migrate
+$ vendor/bin/sail artisan migrate --seed
 ```
 
 
